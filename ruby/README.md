@@ -56,7 +56,7 @@ Click [here][Virtual Box] to go download the version of virtual box for your sys
 Once you have installed Ubuntu you will need to set up the tools we will use throughout this course.
 
 ### Atom Text editor
-source [atom]
+source [atom][atom]
 ```bash
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt update
@@ -64,7 +64,7 @@ sudo apt install atom
 ```
 
 ### Ruby Version Manager (RVM) for Ubuntu
-source [rvm]
+source [rvm][atom]
 ```bash
 sudo apt install software-properties-common
 sudo apt-add-repository -y ppa:rael-gc/rvm
@@ -84,7 +84,7 @@ If what is prited out resembles `git version 2.14`, skip to configure git.
 
 
 #### Install Git
-source [git]
+source [git][git]
 ```bash
 sudo apt update
 sudo apt install git
@@ -96,7 +96,7 @@ git config --global user.name "Your Name Here"
 git config --global user.email "your_email@here.com"
 ```
 ### Postgresql for Ubuntu
-source [postgres]
+source [postgres][postgres]
 ```bash
 sudo apt update
 sudo apt install postgresql postgresql-contrib
@@ -113,7 +113,7 @@ curl -sL https://deb.nodesource.com/setup_9.x|sudo -E bash -
 sudo apt install nodejs
 ```
 #### Install Yarn
-source [yarn]
+source [yarn][yarn]
 ```bash
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg|sudo apt-key add - echo "deb https://dl.yarnpkg.com/debian/ stable main"| sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
