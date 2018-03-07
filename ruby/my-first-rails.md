@@ -2,8 +2,8 @@ Install Guest Addition - => Devices => Install Guest Additions
 
 My First Rails App
 
-~gem install rails
-~ mkdir code
+~gem install rails  
+~ mkdir code  
 ~ cd code
 ~ rails new my_first_app —database=postgresql
 ~ cd my_first_app
